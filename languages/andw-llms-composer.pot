@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: andw-llms-composer 0.0.1\n"
+"Report-Msgid-Bugs-To: plugins-dev@yasuo-o.xyz\n"
+"Last-Translator: Auto Generated <plugins-dev@yasuo-o.xyz>\n"
+"Language-Team: andW <plugins-dev@yasuo-o.xyz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: andw-llms-composer\n"
+
+msgid "Actions"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Cache TTL (minutes)"
+msgstr ""
+
+msgid "Cache cleared."
+msgstr ""
+
+msgid "Clear cache"
+msgstr ""
+
+msgid "Direction"
+msgstr ""
+
+msgid "Document ID is required."
+msgstr ""
+
+msgid "Documents"
+msgstr ""
+
+msgid "Embed llms script"
+msgstr ""
+
+msgid "Enable cache"
+msgstr ""
+
+msgid "Execute sync"
+msgstr ""
+
+msgid "Failed to fetch %s"
+msgstr ""
+
+msgid "Failed to write markdown file."
+msgstr ""
+
+msgid "Generate sitemap.xml"
+msgstr ""
+
+msgid "HTML priority"
+msgstr ""
+
+msgid "Inject alternate link"
+msgstr ""
+
+msgid "LLMS Composer"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Links updated."
+msgstr ""
+
+msgid "Locale"
+msgstr ""
+
+msgid "Markdown"
+msgstr ""
+
+msgid "Markdown priority"
+msgstr ""
+
+msgid "No markdown"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Output"
+msgstr ""
+
+msgid "Output settings saved."
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Overview saved."
+msgstr ""
+
+msgid "Post"
+msgstr ""
+
+msgid "Primary Links"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "Rebuild sitemap"
+msgstr ""
+
+msgid "Run sync job"
+msgstr ""
+
+msgid "Save links"
+msgstr ""
+
+msgid "Save output settings"
+msgstr ""
+
+msgid "Save overview"
+msgstr ""
+
+msgid "Site title"
+msgstr ""
+
+msgid "Sitemap regenerated."
+msgstr ""
+
+msgid "Sorry, you are not allowed to access this resource."
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Sync"
+msgstr ""
+
+msgid "Sync direction updated."
+msgstr ""
+
+msgid "Sync job executed."
+msgstr ""
+
+msgid "Target post (optional)"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Trimmed to %d characters."
+msgstr ""
+
+msgid "Trimmed to %d lines."
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Unexpected response %1$s for %2$s"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Validation log"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "llms.txt Preview"
+msgstr ""

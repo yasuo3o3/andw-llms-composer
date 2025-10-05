@@ -1,0 +1,24 @@
+.andw-llms-links input[type="text"],
+.andw-llms-links input[type="url"] {
+	width: 100%;
+}
+
+.andw-llms-preview {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	padding: 16px;
+	max-height: 320px;
+	overflow: auto;
+}
+
+.andw-llms-validation {
+	list-style: disc inside;
+}
+
+.andw-llms-output-actions {
+	margin: 1em 0;
+}
+
+.andw-llms-output-actions .button {
+	margin-right: 8px;
+}
