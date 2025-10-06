@@ -2,11 +2,12 @@
 Contributors: yasuo3o3
 Tags: markdown, sitemap, llms
 Requires at least: 6.0
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: 0.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+公開 HTMLを真実源としつつMarkdownドキュメントを安全に同期させ、サイト要約のllms.txtとsitemap.xml を自動生成するプラグイン
 
 == Description ==
 andW LLMS Composer は、公開 HTML を真実源としつつ Markdown ドキュメントを安全に同期させ、サイトの要約となる llms.txt と sitemap.xml を自動生成するためのツールです。コンテンツ編集者は Markdown ベースで管理しつつ、既存ページの更新を取りこぼさずに整合を保てます。
