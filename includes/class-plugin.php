@@ -70,6 +70,13 @@ class Andw_LLMS_Composer_Plugin {
 	protected $cli;
 
 	/**
+	 * Inline localization helper.
+	 *
+	 * @var Andw_LLMS_Composer_I18n
+	 */
+	protected $i18n;
+
+	/**
 	 * Retrieve singleton instance.
 	 *
 	 * @return Andw_LLMS_Composer_Plugin
@@ -99,12 +106,14 @@ class Andw_LLMS_Composer_Plugin {
 		$this->llms_builder = new Andw_LLMS_Composer_Llms_Builder( $this->md_store, $this->sitemap, $this->html_sync );
 		$this->admin        = new Andw_LLMS_Composer_Admin( $this );
 		$this->rest         = new Andw_LLMS_Composer_Rest( $this );
+		$this->i18n         = new Andw_LLMS_Composer_I18n();
 
 		if ( defined( 'WP_CLI' ) && WP_CLI ) {
 			$this->cli = new Andw_LLMS_Composer_Cli( $this );
 		}
 
 		$this->md_store->init();
+		$this->i18n->init();
 		$this->register_hooks();
 		$this->admin->init();
 		$this->rest->init();
