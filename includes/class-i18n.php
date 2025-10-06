@@ -25,6 +25,7 @@ class Andw_LLMS_Composer_I18n {
 		'Cache TTL (minutes)'                   => 'キャッシュ保持時間（分）',
 		'Cache cleared.'                        => 'キャッシュを削除しました。',
 		'Clear cache'                           => 'キャッシュを削除',
+		'Docs'                                  => 'ドキュメント',
 		'Direction'                             => '同期方向',
 		'Document ID is required.'              => 'ドキュメントIDは必須です。',
 		'Documents'                             => 'ドキュメント',

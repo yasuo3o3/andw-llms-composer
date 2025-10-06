@@ -239,6 +239,7 @@ class Andw_LLMS_Composer_Admin {
 			'links'    => __( 'Links', 'andw-llms-composer' ),
 			'sync'     => __( 'Sync', 'andw-llms-composer' ),
 			'output'   => __( 'Output', 'andw-llms-composer' ),
+			'docs'     => __( 'Docs', 'andw-llms-composer' ),
 		);
 
 		if ( ! isset( $tabs[ $this->tab ] ) ) {
@@ -256,7 +257,7 @@ class Andw_LLMS_Composer_Admin {
 		}
 		echo '</nav>';
 
-		switch ( $this->tab ) {
+			switch ( $this->tab ) {
 			case 'links':
 				$this->render_view( 'settings-links', array(
 					'links' => andw_llms_composer_get_settings()['primary_links'],
@@ -273,6 +274,9 @@ class Andw_LLMS_Composer_Admin {
 					'settings'       => andw_llms_composer_get_settings(),
 					'validation_log' => get_transient( andw_llms_composer_transient_key( 'llms_validation' ) ),
 				) );
+				break;
+			case 'docs':
+				$this->render_view( 'settings-docs', array() );
 				break;
 			case 'overview':
 			default:
